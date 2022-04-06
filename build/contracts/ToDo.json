@@ -1,0 +1,88 @@
+{
+  "contractName": "ToDo",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058205e3fa357108bf4841db1961f8c29b24bca278dbd16cb046515cedbca889ab42b0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058205e3fa357108bf4841db1961f8c29b24bca278dbd16cb046515cedbca889ab42b0029",
+  "sourceMap": "33:22:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;33:22:1;;;;;;;",
+  "deployedSourceMap": "33:22:1:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\n\ncontract ToDo {\n    \n}",
+  "sourcePath": "/Users/vaheabelyan/Desktop/dapp-todo/contracts/ToDo.sol",
+  "ast": {
+    "absolutePath": "/Users/vaheabelyan/Desktop/dapp-todo/contracts/ToDo.sol",
+    "exportedSymbols": {
+      "ToDo": [
+        34
+      ]
+    },
+    "id": 35,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 34,
+        "linearizedBaseContracts": [
+          34
+        ],
+        "name": "ToDo",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 35,
+        "src": "33:22:1"
+      }
+    ],
+    "src": "33:22:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/vaheabelyan/Desktop/dapp-todo/contracts/ToDo.sol",
+    "exportedSymbols": {
+      "ToDo": [
+        34
+      ]
+    },
+    "id": 35,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 34,
+        "linearizedBaseContracts": [
+          34
+        ],
+        "name": "ToDo",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 35,
+        "src": "33:22:1"
+      }
+    ],
+    "src": "33:22:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x312643026c9EbF59Da025b749b109fe48086C510",
+      "transactionHash": "0x423b8ccaeb7779edea48569817d913a99e6fbaba27a84b466c7f294399672045"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2022-04-06T11:49:13.478Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
