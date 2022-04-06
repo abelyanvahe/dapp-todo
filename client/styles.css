@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#tasks {
+    width: 300px;
+}
+
+#tasks .task {
+    list-style: none;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#tasks .task .content {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+#tasks .task .name {
+    font-weight: bold;
+}
+
+.btn {
+
+}
