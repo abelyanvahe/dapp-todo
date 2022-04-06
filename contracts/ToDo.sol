@@ -19,4 +19,17 @@ contract ToDo {
             status: "new"
         }));
     }
+
+    function getTaskCount() public view returns(uint) {
+        return tasks.length;
+    }
+
+    function addTask(string memory _name, string memory _content) public payable {
+        tasks.push(Task({
+            id: tasks[tasks.length - 1].id + 1,
+            name: _name,
+            content: _content,
+            status: "new"
+        }));
+    }
 }
